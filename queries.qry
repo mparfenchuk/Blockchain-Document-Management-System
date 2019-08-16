@@ -1,0 +1,20 @@
+query selectReport {
+  description: "Select report"
+  statement:
+      SELECT org.nykredit.co.Report
+        WHERE (id == _$id)
+}
+
+query selectReportCreationTransaction {
+  description: "Select created report"
+  statement:
+      SELECT org.nykredit.co.ReportCreationTransaction
+        WHERE (reportId == _$reportId)
+}
+
+query selectReportUpdatingTransaction {
+  description: "Select updated report"
+  statement:
+      SELECT org.nykredit.co.ReportUpdatingTransaction
+        WHERE (transactionId == _$transactionId)
+}

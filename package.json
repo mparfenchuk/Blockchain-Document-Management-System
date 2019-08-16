@@ -1,0 +1,35 @@
+{
+  "engines": {
+    "composer": "^0.20.2"
+  },
+  "name": "nykredit-network",
+  "version": "0.0.1",
+  "description": "Financial company",
+  "scripts": {
+    "pretest": "npm run lint",
+    "lint": "eslint .",
+    "test": "nyc mocha -t 0 test/*.js && cucumber-js"
+  },
+  "keywords": [
+    "composer",
+    "composer-network"
+  ],
+  "author": "nparfen",
+  "email": "nktparfen@gmail.com",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "composer-admin": "^0.20.2",
+    "composer-cli": "^0.20.2",
+    "composer-client": "^0.20.2",
+    "composer-common": "^0.20.2",
+    "composer-connector-embedded": "^0.20.2",
+    "composer-cucumber-steps": "^0.20.2",
+    "chai": "latest",
+    "chai-as-promised": "latest",
+    "cucumber": "^2.2.0",
+    "eslint": "latest",
+    "nyc": "latest",
+    "mkdirp": "latest",
+    "mocha": "latest"
+  }
+}

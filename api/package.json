@@ -1,0 +1,40 @@
+{
+  "name": "api",
+  "version": "0.0.1",
+  "description": "API Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node -r esm .",
+    "test": "mocha --recursive",
+    "dev": "NODE_ENV=development nodemon -r esm"
+  },
+  "author": "nparfen",
+  "email": "nktparfen@gmail.com",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "composer-admin": "^0.20.2",
+    "composer-cli": "^0.20.2",
+    "composer-client": "^0.20.2",
+    "composer-common": "^0.20.2",
+    "composer-connector-embedded": "^0.20.2",
+    "composer-playground": "latest",
+    "concurrently": "^4.0.1",
+    "express": "^4.16.2",
+    "request": "^2.83.0"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.4.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "esm": "^3.2.4",
+    "graphql": "^14.1.1",
+    "ipfs-api": "^25.0.0",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.13",
+    "mongoose-paginate-v2": "^1.0.21",
+    "multer": "^1.4.1",
+    "uuid": "^3.3.2"
+  }
+}
