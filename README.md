@@ -1,6 +1,6 @@
 # Blockchain Document Management System
 
-Simple document management system with Hyperledger Fabric blockchain using Hyperledger Composer API, IPFS, MongoDB, Express.js, GraphQL and React.js
+Simple document management system with Hyperledger Fabric blockchain using Hyperledger Composer API, IPFS, MongoDB, Express.js, GraphQL, React.js and Material-UI
 
 ## Prerequisite
 
