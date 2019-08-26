@@ -2,6 +2,8 @@
 
 Simple document management system with Hyperledger Fabric blockchain using Hyperledger Composer API, IPFS, MongoDB, Express.js, GraphQL, React.js and Material-UI
 
+[![Watch the video](https://img.youtube.com/vi/-0jr5HwS16g/maxresdefault.jpg)](https://youtu.be/-0jr5HwS16g)
+
 ## Prerequisite
 
 - Operating Systems: Ubuntu Linux 14.04 / 16.04 LTS (both 64-bit), or Mac OS 10.12
