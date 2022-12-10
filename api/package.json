@@ -20,7 +20,7 @@
     "composer-connector-embedded": "^0.20.2",
     "composer-playground": "latest",
     "concurrently": "^4.0.1",
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "request": "^2.83.0"
   },
   "dependencies": {
